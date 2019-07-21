@@ -1,5 +1,18 @@
+body {
+  height: 100vh !important;
+  overflow-y: none;
+}
 .App {
   text-align: center;
+  background: #010118;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.uploadInput {
+  background: white;
+  border-radius: 50px;
 }
 
 .App-logo {

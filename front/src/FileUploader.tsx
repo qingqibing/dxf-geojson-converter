@@ -34,6 +34,7 @@ class FileUploader extends React.Component<any, any> {
       <div className="App">
         <form>
           <input
+            className="uploadInput"
             type="file"
             onChange={e => this.handleChange(e.target.files)}
           />
